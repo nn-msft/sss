@@ -37,7 +37,7 @@ namespace NewRelicDemo_NN_01
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World Agsaain!");
+                    await context.Response.WriteAsync("Hello World Agsaafin!");
                 });
                 endpoints.MapControllerRoute(
 
